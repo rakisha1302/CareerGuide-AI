@@ -1,336 +1,9 @@
 
-/* CareerGuide AI - Modern UI Design */
-
-.stApp {
-    background: linear-gradient(135deg, #f5f3ff, #eef2ff);
-}
-
-/* Main headings */
-h1, h2, h3 {
-    color: #312e81;
-    font-weight: 700;
-}
-
-/* Sidebar */
-section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #1e1b4b, #312e81);
-}
-
-section[data-testid="stSidebar"] * {
-    color: white !important;
-}
-
-/* Buttons */
-.stButton > button {
-    background: linear-gradient(90deg, #6366f1, #8b5cf6);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.stButton > button:hover {
-    background: linear-gradient(90deg, #4f46e5, #7c3aed);
-    transform: translateY(-2px);
-}
-
-/* Metric cards */
-div[data-testid="stMetric"] {
-    background: white;
-    padding: 18px;
-    border-radius: 14px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
-}
-
-/* Containers */
-div[data-testid="stExpander"] {
-    background: white;
-    border-radius: 12px;
-}
-
-/* Input fields */
-.stTextInput input,
-.stTextArea textarea {
-    border-radius: 10px;
-}
-
-/* Dataframes */
-div[data-testid="stDataFrame"] {
-    border-radius: 12px;
-    overflow: hidden;
-}
-/* Sidebar branding */
-section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #17143F, #312E81, #3730A3);
-}
-
-/* Sidebar divider */
-section[data-testid="stSidebar"] hr {
-    border-color: rgba(255,255,255,0.25);
-}
-
-/* Sidebar select box */
-section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
-    background-color: #ffffff;
-    border-radius: 10px;
-    border: 1px solid #c4b5fd;
-}
-
-/* Sidebar text */
-section[data-testid="stSidebar"] label {
-    color: white !important;
-}
-
-/* Main content spacing */
-.block-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-/* =================================
-   SIDEBAR SEARCH / MODULE SELECTOR
-================================= */
-
-/* Main selection box */
-section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
-    background: linear-gradient(135deg, #ffffff, #ede9fe) !important;
-    border: 2px solid #8b5cf6 !important;
-    border-radius: 12px !important;
-    min-height: 48px;
-    box-shadow: 0 3px 10px rgba(139, 92, 246, 0.20);
-    transition: all 0.3s ease;
-}
-
-/* Selected text */
-section[data-testid="stSidebar"] div[data-baseweb="select"] * {
-    color: #312e81 !important;
-    font-weight: 600 !important;
-}
-
-/* Hover effect */
-section[data-testid="stSidebar"] div[data-baseweb="select"] > div:hover {
-    border: 2px solid #6366f1 !important;
-    box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
-}
-
-/* Focus effect */
-section[data-testid="stSidebar"] div[data-baseweb="select"] > div:focus-within {
-    border: 2px solid #4f46e5 !important;
-    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.25);
-}
-
-/* Dropdown menu */
-div[data-baseweb="popover"] ul {
-    background-color: #ffffff !important;
-}
-
-div[data-baseweb="popover"] li {
-    color: #312e81 !important;
-    font-weight: 500 !important;
-}
-
-div[data-baseweb="popover"] li:hover {
-    background-color: #ede9fe !important;
-}
-
-/* =====================================
-   ENHANCED SIDEBAR DESIGN
-===================================== */
-
-/* Sidebar background */
-[data-testid="stSidebar"] {
-    background: linear-gradient(
-        180deg,
-        #111827 0%,
-        #1e293b 100%
-    );
-    border-right: 1px solid #334155;
-}
-
-/* Sidebar content */
-[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
-    color: #f8fafc !important;
-    font-weight: 500;
-}
-
-/* Sidebar headings */
-[data-testid="stSidebar"] h1,
-[data-testid="stSidebar"] h2,
-[data-testid="stSidebar"] h3 {
-    color: #ffffff !important;
-    font-weight: 700;
-}
-
-/* Sidebar radio menu options */
-[data-testid="stSidebar"] div[role="radiogroup"] label {
-    color: #e2e8f0 !important;
-    font-weight: 600 !important;
-    padding: 10px 12px !important;
-    border-radius: 9px !important;
-    transition: all 0.2s ease;
-}
-
-/* Sidebar menu hover effect */
-[data-testid="stSidebar"] div[role="radiogroup"] label:hover {
-    background-color: #334155 !important;
-    color: #ffffff !important;
-}
-
-/* Selected sidebar option */
-[data-testid="stSidebar"] div[role="radiogroup"] label:has(input:checked) {
-    background: linear-gradient(
-        90deg,
-        #2563eb,
-        #3b82f6
-    ) !important;
-    color: #ffffff !important;
-    font-weight: 700 !important;
-}
-
-/* Sidebar input labels */
-[data-testid="stSidebar"] label {
-    color: #f1f5f9 !important;
-}
-
-/* Sidebar captions */
-[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {
-    color: #cbd5e1 !important;
-}
-
-/* Sidebar buttons */
-[data-testid="stSidebar"] .stButton button {
-    background-color: #2563eb;
-    color: #ffffff !important;
-    border: none;
-    border-radius: 9px;
-    font-weight: 600;
-}
-
-[data-testid="stSidebar"] .stButton button:hover {
-    background-color: #1d4ed8;
-    border: none;
-    color: #ffffff !important;
-}
-
 /* ==========================================
-   CAREERGUIDE AI - ENHANCED SKILL SELECTION
+   CAREERGUIDE AI - COMPLETE MODERN UI DESIGN
 ========================================== */
 
-/* Main skill selection container */
-div[data-testid="stMultiSelect"] {
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-
-/* Dropdown input area */
-div[data-testid="stMultiSelect"] > div > div {
-    background: linear-gradient(135deg, #ffffff, #f3f0ff) !important;
-    border: 2px solid #8b5cf6 !important;
-    border-radius: 15px !important;
-    min-height: 54px;
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.12);
-    transition: all 0.3s ease;
-}
-
-/* Hover effect */
-div[data-testid="stMultiSelect"] > div > div:hover {
-    border-color: #2563eb !important;
-    box-shadow: 0 5px 20px rgba(59, 130, 246, 0.2);
-}
-
-/* Placeholder text */
-div[data-testid="stMultiSelect"] input {
-    color: #1e293b !important;
-    font-size: 16px !important;
-}
-
-/* Selected skill tags */
-div[data-testid="stMultiSelect"] span[data-baseweb="tag"] {
-    background: linear-gradient(135deg, #4f46e5, #9333ea) !important;
-    color: white !important;
-    border-radius: 20px !important;
-    padding: 5px 10px !important;
-    font-weight: 600 !important;
-}
-
-/* Selected tag text */
-div[data-testid="stMultiSelect"] span[data-baseweb="tag"] span {
-    color: white !important;
-}
-
-/* Dropdown menu */
-div[data-baseweb="popover"] {
-    background: white !important;
-    border: 1px solid #c4b5fd !important;
-    border-radius: 14px !important;
-    box-shadow: 0 12px 30px rgba(79, 70, 229, 0.18) !important;
-}
-
-/* Dropdown options */
-div[role="listbox"] div[role="option"] {
-    background-color: #ffffff !important;
-    color: #1e293b !important;
-    font-size: 15px !important;
-    font-weight: 500 !important;
-    padding: 12px !important;
-    transition: all 0.2s ease;
-}
-
-/* Option hover */
-div[role="listbox"] div[role="option"]:hover {
-    background: linear-gradient(90deg, #ede9fe, #dbeafe) !important;
-    color: #4338ca !important;
-}
-
-/* Focused dropdown option */
-div[role="listbox"] div[role="option"][aria-selected="true"] {
-    background-color: #e0e7ff !important;
-    color: #3730a3 !important;
-    font-weight: 700 !important;
-}
-
-/* Find My Career button */
-.stButton > button {
-    background: linear-gradient(110deg, #2563eb, #7c3aed) !important;
-    color: #ffffff !important;
-    border: none !important;
-    border-radius: 12px !important;
-    padding: 12px 25px !important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.25);
-    transition: all 0.3s ease;
-}
-
-/* Button hover */
-.stButton > button:hover {
-    background: linear-gradient(110deg, #1d4ed8, #6d28d9) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 22px rgba(79, 70, 229, 0.35);
-    color: white !important;
-}
-
-/* Section labels */
-.stMarkdown p,
-.stText,
-label {
-    color: #1e293b;
-}
-
-/* Improve input field visibility */
-.stTextInput input,
-.stTextArea textarea,
-.stSelectbox div[data-baseweb="select"] {
-    border-radius: 10px !important;
-    border-color: #c4b5fd !important;
-}
-
-/* ==========================================
-   CAREERGUIDE AI - PREMIUM LEARNING PLAN
-========================================== */
-
-/* Main learning plan background */
+/* Main application background */
 .stApp {
     background: linear-gradient(
         135deg,
@@ -338,115 +11,137 @@ label {
         #eff6ff 50%,
         #fdf2ff 100%
     );
+    color: #1e293b !important;
 }
 
-/* Learning plan title */
-h1, h2 {
+/* ==========================================
+   MAIN PAGE TEXT VISIBILITY FIX
+========================================== */
+
+/* Main page paragraphs and normal text */
+[data-testid="stAppViewContainer"] .main p,
+[data-testid="stAppViewContainer"] .main li,
+[data-testid="stAppViewContainer"] .main label,
+[data-testid="stAppViewContainer"] .main .stMarkdown,
+[data-testid="stAppViewContainer"] .main .stText {
+    color: #1e293b !important;
+}
+
+/* Main headings */
+[data-testid="stAppViewContainer"] .main h1,
+[data-testid="stAppViewContainer"] .main h2,
+[data-testid="stAppViewContainer"] .main h3,
+[data-testid="stAppViewContainer"] .main h4 {
     color: #172554 !important;
     font-weight: 800 !important;
 }
 
-/* ==========================================
-   PHASE CARDS / EXPANDERS
-========================================== */
-
-div[data-testid="stExpander"] {
-    background: #ffffff !important;
-    border: 1px solid #c7d2fe !important;
-    border-radius: 16px !important;
-    margin-bottom: 17px !important;
-    overflow: hidden !important;
-    box-shadow: 0 5px 18px rgba(79, 70, 229, 0.08);
-    transition: all 0.25s ease;
+/* Main page captions */
+[data-testid="stAppViewContainer"] .main
+[data-testid="stCaptionContainer"] {
+    color: #475569 !important;
 }
 
-/* Phase card hover */
-div[data-testid="stExpander"]:hover {
-    border-color: #818cf8 !important;
-    box-shadow: 0 9px 25px rgba(79, 70, 229, 0.16);
-    transform: translateY(-2px);
+/* Metric labels */
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p {
+    color: #334155 !important;
 }
 
-/* Phase heading */
-div[data-testid="stExpander"] summary {
-    background: linear-gradient(
-        100deg,
-        #eef2ff,
-        #f5f3ff,
-        #eff6ff
-    ) !important;
-    padding: 17px 20px !important;
-    color: #312e81 !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-}
-
-/* Phase heading text */
-div[data-testid="stExpander"] summary span {
-    color: #312e81 !important;
-    font-weight: 700 !important;
-}
-
-/* Expanded phase content */
-div[data-testid="stExpander"] div[data-testid="stExpanderDetails"] {
-    background: #ffffff !important;
-    padding: 20px !important;
-}
-
-/* ==========================================
-   LEARNING TASK CHECKBOXES
-========================================== */
-
-div[data-testid="stCheckbox"] {
-    background: #f8faff;
-    border: 1px solid #e0e7ff;
-    border-radius: 10px;
-    padding: 10px 14px;
-    margin: 8px 0;
-    transition: all 0.2s ease;
-}
-
-/* Checkbox hover */
-div[data-testid="stCheckbox"]:hover {
-    background: #eef2ff;
-    border-color: #818cf8;
-}
-
-/* Checkbox text */
-div[data-testid="stCheckbox"] label p {
+/* Metric values */
+[data-testid="stMetricValue"],
+[data-testid="stMetricValue"] div {
     color: #1e293b !important;
-    font-size: 15px !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
 }
 
-/* Checkbox control */
-div[data-testid="stCheckbox"] input {
-    accent-color: #4f46e5 !important;
+/* Metric descriptions */
+[data-testid="stMetricDelta"] {
+    color: #475569 !important;
 }
 
 /* ==========================================
-   PROGRESS BAR
+   SIDEBAR DESIGN
 ========================================== */
 
-div[data-testid="stProgress"] {
-    background: #e0e7ff !important;
-    border-radius: 20px !important;
-    padding: 3px !important;
-    margin: 15px 0 !important;
+section[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #17143f 0%,
+        #312e81 55%,
+        #3730a3 100%
+    ) !important;
+    border-right: 1px solid #4338ca;
 }
 
-div[data-testid="stProgress"] > div > div {
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* Sidebar headings */
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar paragraphs */
+section[data-testid="stSidebar"] p {
+    color: #f8fafc !important;
+}
+
+/* Sidebar divider */
+section[data-testid="stSidebar"] hr {
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Sidebar captions */
+section[data-testid="stSidebar"]
+[data-testid="stCaptionContainer"] {
+    color: #cbd5e1 !important;
+}
+
+/* Sidebar buttons */
+section[data-testid="stSidebar"] .stButton > button {
     background: linear-gradient(
         90deg,
         #2563eb,
-        #7c3aed,
-        #c026d3
+        #7c3aed
     ) !important;
-    border-radius: 20px !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar dropdown */
+section[data-testid="stSidebar"]
+div[data-baseweb="select"] > div {
+    background: #ffffff !important;
+    border: 2px solid #8b5cf6 !important;
+    border-radius: 10px !important;
+}
+
+/* Sidebar selected dropdown text */
+section[data-testid="stSidebar"]
+div[data-baseweb="select"] * {
+    color: #312e81 !important;
+    font-weight: 600 !important;
 }
 
 /* ==========================================
-   BUTTONS
+   MAIN PAGE SPACING
+========================================== */
+
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* ==========================================
+   BUTTON DESIGN
 ========================================== */
 
 .stButton > button {
@@ -459,11 +154,13 @@ div[data-testid="stProgress"] > div > div {
     border: none !important;
     border-radius: 12px !important;
     padding: 11px 22px !important;
+    font-size: 16px !important;
     font-weight: 700 !important;
     box-shadow: 0 5px 14px rgba(79, 70, 229, 0.2);
     transition: all 0.25s ease;
 }
 
+/* Button hover */
 .stButton > button:hover {
     background: linear-gradient(
         110deg,
@@ -472,79 +169,136 @@ div[data-testid="stProgress"] > div > div {
     ) !important;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+    color: #ffffff !important;
 }
 
 /* ==========================================
-   CAPTIONS AND TEXT
+   INPUT FIELDS
 ========================================== */
 
-.stCaption,
-[data-testid="stCaptionContainer"] {
-    color: #475569 !important;
+.stTextInput input,
+.stTextArea textarea,
+.stNumberInput input {
+    border-radius: 10px !important;
+    border: 1px solid #c4b5fd !important;
+    color: #1e293b !important;
+    background: #ffffff !important;
 }
 
-/* Dividers */
-hr {
-    border-color: #c7d2fe !important;
+/* Input placeholder */
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #64748b !important;
+}
+
+/* Select boxes */
+.stSelectbox div[data-baseweb="select"] > div {
+    background: #ffffff !important;
+    border-radius: 10px !important;
+    border-color: #c4b5fd !important;
 }
 
 /* ==========================================
-   VIBRANT LEARNING TASK CARDS
+   SKILL MULTISELECT DESIGN
 ========================================== */
 
-/* Individual task cards */
-div[data-testid="stExpanderDetails"] div[data-testid="stCheckbox"] {
-    background: linear-gradient(
-        110deg,
-        #eff6ff,
-        #eef2ff,
-        #f5f3ff
-    ) !important;
-    border: 1px solid #a5b4fc !important;
-    border-left: 5px solid #6366f1 !important;
-    border-radius: 12px !important;
-    padding: 13px 16px !important;
-    margin: 12px 0 !important;
-    box-shadow: 0 3px 10px rgba(79, 70, 229, 0.08);
-    transition: all 0.25s ease;
+div[data-testid="stMultiSelect"] {
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
-/* Task hover effect */
-div[data-testid="stExpanderDetails"] div[data-testid="stCheckbox"]:hover {
-    background: linear-gradient(
-        110deg,
-        #dbeafe,
-        #e0e7ff,
-        #f3e8ff
-    ) !important;
-    border-color: #818cf8 !important;
-    border-left-color: #7c3aed !important;
-    transform: translateX(4px);
-    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.16);
-}
-
-/* Task text */
-div[data-testid="stExpanderDetails"] div[data-testid="stCheckbox"] label p {
-    color: #1e1b4b !important;
-    font-size: 16px !important;
-    font-weight: 650 !important;
-}
-
-/* Checkbox accent */
-div[data-testid="stExpanderDetails"] div[data-testid="stCheckbox"] input {
-    accent-color: #6d28d9 !important;
-}
-
-/* Expanded phase background */
-div[data-testid="stExpanderDetails"] {
+/* Multiselect input area */
+div[data-testid="stMultiSelect"] > div > div {
     background: linear-gradient(
         135deg,
         #ffffff,
-        #f8faff
+        #f3f0ff
     ) !important;
+    border: 2px solid #8b5cf6 !important;
+    border-radius: 15px !important;
+    min-height: 54px;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.12);
 }
 
-/* Phase heading */
+/* Multiselect input text */
+div[data-testid="stMultiSelect"] input {
+    color: #1e293b !important;
+    font-size: 16px !important;
+}
+
+/* Selected skill tags */
+div[data-testid="stMultiSelect"]
+span[data-baseweb="tag"] {
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #9333ea
+    ) !important;
+    border-radius: 20px !important;
+}
+
+/* Selected skill tag text */
+div[data-testid="stMultiSelect"]
+span[data-baseweb="tag"] * {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* Dropdown menu */
+div[data-baseweb="popover"] {
+    background: #ffffff !important;
+    border: 1px solid #c4b5fd !important;
+    border-radius: 14px !important;
+    box-shadow: 0 12px 30px rgba(79, 70, 229, 0.18) !important;
+}
+
+/* Dropdown options */
+div[role="listbox"] div[role="option"] {
+    background: #ffffff !important;
+    color: #1e293b !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    padding: 12px !important;
+}
+
+/* Dropdown option hover */
+div[role="listbox"] div[role="option"]:hover {
+    background: #ede9fe !important;
+    color: #4338ca !important;
+}
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+div[data-testid="stMetric"] {
+    background: #ffffff !important;
+    padding: 18px !important;
+    border-radius: 14px !important;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+/* ==========================================
+   EXPANDER / LEARNING ROADMAP CARDS
+========================================== */
+
+div[data-testid="stExpander"] {
+    background: #ffffff !important;
+    border: 1px solid #c7d2fe !important;
+    border-radius: 16px !important;
+    margin-bottom: 17px !important;
+    overflow: hidden !important;
+    box-shadow: 0 5px 18px rgba(79, 70, 229, 0.08);
+    transition: all 0.25s ease;
+}
+
+/* Expander hover */
+div[data-testid="stExpander"]:hover {
+    border-color: #818cf8 !important;
+    box-shadow: 0 9px 25px rgba(79, 70, 229, 0.16);
+}
+
+/* Expander heading */
 div[data-testid="stExpander"] summary {
     background: linear-gradient(
         100deg,
@@ -552,19 +306,87 @@ div[data-testid="stExpander"] summary {
         #e9d5ff,
         #fce7f3
     ) !important;
-    border-bottom: 1px solid #c4b5fd !important;
+    padding: 17px 20px !important;
 }
 
-/* Phase heading text */
+/* Expander heading text */
 div[data-testid="stExpander"] summary span {
     color: #312e81 !important;
-    font-weight: 750 !important;
+    font-weight: 700 !important;
 }
 
-/* Progress track */
+/* Expander content */
+div[data-testid="stExpanderDetails"] {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f8faff
+    ) !important;
+    padding: 20px !important;
+}
+
+/* Expander headings */
+div[data-testid="stExpanderDetails"] h1,
+div[data-testid="stExpanderDetails"] h2,
+div[data-testid="stExpanderDetails"] h3 {
+    color: #4338ca !important;
+}
+
+/* ==========================================
+   LEARNING TASK CHECKBOXES
+========================================== */
+
+div[data-testid="stCheckbox"] {
+    background: #f8faff !important;
+    border: 1px solid #e0e7ff !important;
+    border-radius: 10px !important;
+    padding: 10px 14px !important;
+    margin: 8px 0 !important;
+    transition: all 0.2s ease;
+}
+
+/* Checkbox text */
+div[data-testid="stCheckbox"] label p {
+    color: #1e293b !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+/* Checkbox hover */
+div[data-testid="stCheckbox"]:hover {
+    background: #eef2ff !important;
+    border-color: #818cf8 !important;
+}
+
+/* Checkbox accent */
+div[data-testid="stCheckbox"] input {
+    accent-color: #6d28d9 !important;
+}
+
+/* Completed task */
+div[data-testid="stCheckbox"]:has(input:checked) {
+    background: linear-gradient(
+        110deg,
+        #dcfce7,
+        #d1fae5
+    ) !important;
+    border-color: #86efac !important;
+}
+
+/* Completed task text */
+div[data-testid="stCheckbox"]:has(input:checked) label p {
+    color: #166534 !important;
+}
+
+/* ==========================================
+   PROGRESS BAR
+========================================== */
+
 div[data-testid="stProgress"] {
     background: #e0e7ff !important;
     border-radius: 20px !important;
+    padding: 3px !important;
+    margin: 15px 0 !important;
 }
 
 /* Progress fill */
@@ -579,24 +401,33 @@ div[data-testid="stProgress"] > div > div {
     border-radius: 20px !important;
 }
 
-/* Learning page headings */
-div[data-testid="stExpanderDetails"] h1,
-div[data-testid="stExpanderDetails"] h2,
-div[data-testid="stExpanderDetails"] h3 {
-    color: #4338ca !important;
+/* ==========================================
+   DATAFRAMES
+========================================== */
+
+div[data-testid="stDataFrame"] {
+    border-radius: 12px !important;
+    overflow: hidden !important;
 }
 
-/* Completed task text */
-div[data-testid="stCheckbox"]:has(input:checked) {
-    background: linear-gradient(
-        110deg,
-        #dcfce7,
-        #d1fae5
-    ) !important;
-    border-left-color: #16a34a !important;
-    border-color: #86efac !important;
+/* ==========================================
+   DIVIDERS
+========================================== */
+
+hr {
+    border-color: #c7d2fe !important;
 }
 
-div[data-testid="stCheckbox"]:has(input:checked) label p {
-    color: #166534 !important;
+/* ==========================================
+   CHAT INPUT
+========================================== */
+
+[data-testid="stChatInput"] {
+    background: #ffffff !important;
+    border: 1px solid #c4b5fd !important;
+    border-radius: 12px !important;
 }
+
+/* ==========================================
+   END OF CAREERGUIDE AI CSS
+========================================== */
